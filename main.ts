@@ -1,9 +1,9 @@
 let distance = 0
 input.onButtonPressed(Button.A, function () {
-    servos.P2.setAngle(45)
+    servos.P2.setAngle(105)
 })
 input.onButtonPressed(Button.B, function () {
-    servos.P2.setAngle(105)
+    servos.P2.setAngle(45)
 })
 basic.forever(function () {
     distance = sonar.ping(
